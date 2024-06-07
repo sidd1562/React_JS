@@ -8,11 +8,11 @@ import Card from "./components/Card";"./components/Card"
 function App() {
   // const [count, setCount] = useState(0);
   // let arr = [1,2,3,4,5]
-  let myObj = {
-    username : "anime",
-    Charactername:"gojo",
-    age:20000
-  }
+  // let myObj = {
+  //   username : "anime",
+  //   Charactername:"gojo",
+  //   age:20000
+  // }
 
   return (
     <>
@@ -21,8 +21,8 @@ function App() {
         p-4 
         rounded-xl
         mb-7">Tailwind</h1>
-     <Card channel="anime" someobject={myObj}/>
-     <Card/>
+     <Card animename="dragonballz" chracter="goku"/>
+     <Card />
 
 
 
