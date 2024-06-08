@@ -36,8 +36,9 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `https://images.pexels.com/photos/15936702/pexels-photo-15936702/free-photo-of-basilica-of-the-national-shrine-of-the-blessed-virgin-of-ta-pinu.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`,
+        backgroundImage: `url(https://images.pexels.com/photos/15936702/pexels-photo-15936702/free-photo-of-basilica-of-the-national-shrine-of-the-blessed-virgin-of-ta-pinu.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
       }}>
+      
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
